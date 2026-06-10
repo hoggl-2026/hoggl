@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hoggl · You're set up to sell</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: #ffffff;
+      color: #1a1a1a;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 24px;
+      text-align: center;
+    }
+
+    .tick-wrap {
+      width: 72px;
+      height: 72px;
+      background: #EAFBF0;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 24px;
+    }
+
+    h1 {
+      font-size: 22px;
+      font-weight: 600;
+      color: #1a1a1a;
+      margin-bottom: 12px;
+      line-height: 1.3;
+    }
+
+    p {
+      font-size: 15px;
+      font-weight: 400;
+      color: #757575;
+      line-height: 1.6;
+      max-width: 280px;
+      margin: 0 auto 32px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #7A117A;
+      color: #ffffff;
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 0 24px;
+      height: 50px;
+      line-height: 50px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      max-width: 320px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="tick-wrap">
+    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M8 18.5L14.5 25L28 11" stroke="#1A7A3A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+
+  <h1>You're set up to sell</h1>
+  <p>Your Hoggl seller account is connected. Tap the button below to return to the app.</p>
+
+  <a href="hoggl://stripe-return" class="button">Return to Hoggl</a>
+
+</body>
+</html>
